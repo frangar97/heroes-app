@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance, characters }) => {
-    const imagePath = `assets/${id}.jpg`;
+    const imagePath = `/assets/${id}.jpg`;
 
     return (
         <div className="col">
