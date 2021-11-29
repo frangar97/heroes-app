@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pruebas en el componente <AppRouter/> Debe mostrar el componente de marvel si esta autenticado 1`] = `
+exports[`Pruebas en <DashboardRoutes/> Debe mostrar correctamente 1`] = `
 Array [
   <nav
     className="navbar navbar-expand-sm navbar-dark bg-dark"
@@ -19,8 +19,7 @@ Array [
         className="navbar-nav"
       >
         <a
-          aria-current="page"
-          className="nav-item nav-link active"
+          className="nav-item nav-link"
           href="/marvel"
           onClick={[Function]}
         >
@@ -615,26 +614,6 @@ Array [
         </div>
       </div>
     </div>
-  </div>,
-]
-`;
-
-exports[`Pruebas en el componente <AppRouter/> Debe mostrar el login si no esta autenticado 1`] = `
-Array [
-  " ",
-  <div
-    className="container mt-5"
-  >
-    <h1>
-      Login
-    </h1>
-    <hr />
-    <button
-      className="btn btn-primary"
-      onClick={[Function]}
-    >
-      Login
-    </button>
   </div>,
 ]
 `;
